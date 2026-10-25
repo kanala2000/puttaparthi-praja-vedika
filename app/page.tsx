@@ -304,7 +304,7 @@ export default function HomePage() {
         <div className="steps-grid">
           <div className="step"><span className="step-num">01</span><div className="step-icon">⌖</div><h3>ప్రాంతాన్ని ఎంచుకోండి</h3><p>మండలం, గ్రామం లేదా వార్డు, ప్రాంతం వివరాలు ఇవ్వండి.</p></div>
           <div className="step"><span className="step-num">02</span><div className="step-icon">♬</div><h3>సమస్యను వివరించండి</h3><p>తెలుగులో రాయండి లేదా మీ స్వరంతో రికార్డ్ చేయండి.</p></div>
-          <div className="step"><span className="step-num">03</span><div className="step-icon">✓</div><h3>నంబర్‌తో అనుసరించండి</h3><p>నమూనాలో ఒక డెమో నంబర్ కనిపిస్తుంది. నిజమైన ట్రாக்கింగ్ பின்னர் இணைக்கப்படும்.</p></div>
+          <div className="step"><span className="step-num">03</span><div className="step-icon">✓</div><h3>నంబర్‌తో అనుసరించండి</h3><p>నమూనాలో ఒక డెమో నంబర్ కనిపిస్తుంది. నిజమైన ట్రాకింగ్ తర్వాత అనుసంధానించబడుతుంది.</p></div>
         </div>
       </section>
 
