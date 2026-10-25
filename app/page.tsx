@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
 
 type PortraitKey = "mla" | "cm" | "incharge";
 type Portraits = Record<PortraitKey, string>;
@@ -189,7 +189,7 @@ export default function HomePage() {
     setRecording(false);
   }
 
-  async function submitPrototypeIssue(event: React.FormEvent<HTMLFormElement>) {
+  async function submitPrototypeIssue(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     // No real complaint is sent anywhere in this UI prototype.
     const generatedId = "PV-DEMO-" + Math.random().toString(36).slice(2, 8).toUpperCase();
@@ -197,7 +197,7 @@ export default function HomePage() {
     setSubmitted(true);
   }
 
-  function checkAdmin(event: React.FormEvent<HTMLFormElement>) {
+  function checkAdmin(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     // This is deliberately a demo gate, not real authentication.
     if (adminPin === "demo123") {
